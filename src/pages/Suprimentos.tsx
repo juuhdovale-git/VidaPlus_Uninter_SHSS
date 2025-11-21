@@ -1,4 +1,4 @@
-import { Package, AlertTriangle, CheckCircle } from 'lucide-react'
+import { AlertTriangle, CheckCircle } from 'lucide-react'
 import { suprimentosMock } from '../data/mockData'
 import type { Suprimento } from '../types'
 

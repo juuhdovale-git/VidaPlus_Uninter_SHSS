@@ -1,4 +1,4 @@
-import { Building2, Plus } from 'lucide-react'
+import { Building2 } from 'lucide-react'
 
 interface LogoProps {
   size?: 'sm' | 'md' | 'lg'

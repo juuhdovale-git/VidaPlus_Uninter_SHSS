@@ -10,8 +10,10 @@
     "dev:network": "vite --host 0.0.0.0",
     "dev:port": "vite --port 3000 --host 0.0.0.0",
     "build": "tsc && vite build",
+    "build:github": "tsc && vite build --base=/VidaPlus_Uninter_SHSS/",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build:github && node deploy-gh-pages.js"
   },
   "dependencies": {
     "react": "^18.2.0",

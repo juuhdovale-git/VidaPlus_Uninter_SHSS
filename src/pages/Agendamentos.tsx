@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Calendar, Clock, UserCheck, Filter, Plus, X } from 'lucide-react'
+import { Calendar, UserCheck, Filter, Plus, X } from 'lucide-react'
 import { agendamentosMock, pacientesMock, profissionaisMock } from '../data/mockData'
 import type { Agendamento } from '../types'
 import Modal from '../components/Modal'
@@ -9,17 +9,6 @@ const formatarData = (data: string) => {
   return d.toLocaleDateString('pt-BR', {
     day: '2-digit',
     month: 'long',
-    year: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit'
-  })
-}
-
-const formatarDataHora = (data: string) => {
-  const d = new Date(data)
-  return d.toLocaleDateString('pt-BR', {
-    day: '2-digit',
-    month: '2-digit',
     year: 'numeric',
     hour: '2-digit',
     minute: '2-digit'

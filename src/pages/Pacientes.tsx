@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Search, Plus, Eye, Edit, Trash2, UserPlus } from 'lucide-react'
+import { Search, Eye, Edit, Trash2, UserPlus } from 'lucide-react'
 import { pacientesMock } from '../data/mockData'
 import type { Paciente } from '../types'
 import Modal from '../components/Modal'

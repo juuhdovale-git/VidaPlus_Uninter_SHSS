@@ -1,4 +1,4 @@
-import { FileText, Search, Plus } from 'lucide-react'
+import { FileText, Plus } from 'lucide-react'
 
 export default function Prontuarios() {
   return (

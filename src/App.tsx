@@ -42,7 +42,7 @@ function App() {
   }, [])
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/VidaPlus_Uninter_SHSS">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route
